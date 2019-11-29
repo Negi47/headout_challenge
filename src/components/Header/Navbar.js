@@ -16,6 +16,7 @@ function Navbar() {
                 </div>
 
                 <div className="profileImageWrapper">
+                    <button>Trending</button>
                     <img src={Profile} />
                 </div>
             </div>

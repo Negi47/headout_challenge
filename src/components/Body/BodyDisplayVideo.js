@@ -1,6 +1,7 @@
 import React from "react";
-import VideoLink from "../../assets/sample.mp4";
+import VideoLink from "../../assets/batman.mp4";
 import ImgAvatar from "../../assets/profile.png";
+import Comments from "./Comments";
 
 function BodyDisplayVideo() {
     return (
@@ -9,13 +10,25 @@ function BodyDisplayVideo() {
 
             <div class="media-info">
                 <div class="title">
-                    <h1>The Amazing Video of a Rabbit</h1>
+                    <h1>Batman 75th Anniversary Animated</h1>
                     <div class="views">
                         {/* <span><img src="./eye.png" alt=""/></span> */}
-                        <span>6,500,550 views</span>
+                        <span>6,999,550 views</span>
                     </div>
                 </div>
                 
+            </div>
+
+            <div className="comments">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <Comments />
+                <Comments />
+                <Comments />
+                <Comments />
+                <Comments />
+                <Comments />
+                <Comments />
+                <Comments />
             </div>
         </div>
     )
