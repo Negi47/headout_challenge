@@ -1,8 +1,16 @@
 import React from "react";
+import "./body.css";
+import BodyListOfVideos from "./BodyListOfVideos";
 
 function Body() {
     return (
-        <div></div>
+        <center>
+            <div className="main_body_container">
+
+                <BodyListOfVideos />
+
+            </div>
+        </center>
     )
 }
 
